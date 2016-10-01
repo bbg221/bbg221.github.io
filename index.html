@@ -1,11 +1,159 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="cmn-Hans-CN">
 <head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Language" content="zh-cn"/>
+<base target="_blank" />
 	<title>桥南</title>
 </head>
 <body bgcolor="#d0d0d0">
 <h1 align="center">这是个小标题</h1>
 <p>第一个段落</p>
+
+
+<audio controls="controls" height="100" width="100">
+  <source src="一生所爱剧场加强版.mp3" type="audio/mp3" />
+<embed height="100" width="100" src="一生所爱剧场加强版.mp3" />
+</audio>
+
+
+<input type="text" name="fname" placeholder="First name">
+
+
+<input list="browsers">
+
+<datalist id="browsers">
+   <option value="Internet Explorer">
+   <option value="Firefox">
+   <option value="Chrome">
+   <option value="Opera">
+   <option value="Safari">
+</datalist> 
+
+<form>
+  Birthday (month and year):
+  <input type="month" name="bdaymonth">
+</form>
+
+<form>
+  Birthday (date and time):
+  <input type="datetime" name="bdaytime">
+</form>
+
+<form>
+  Search Google:
+  <input type="search" name="googlesearch">
+</form>
+
+<form>
+  <input type="range" name="points" min="0" max="10">
+</form>
+
+<form>
+  Select your favorite color:
+  <input type="color" name="favcolor">
+</form>
+
+<form>
+  Enter a date before 1980-01-01:
+  <input type="date" name="bday" max="1979-12-31"><br>
+  Enter a date after 2000-01-01:
+  <input type="date" name="bday" min="2000-01-02"><br>
+</form>
+
+<form>
+  Quantity:
+  <input type="number" name="points" min="0" max="100" step="10" value="30">
+</form>
+
+<form>
+  Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5">
+</form>
+
+<form>
+<input type="radio" name="sex" value="male" checked>Male
+<br>
+<input type="radio" name="sex" value="female">Female
+</form> 
+
+<form>
+<input type="checkbox" name="vehicle" value="Bike">I have a bike
+<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car 
+</form> 
+
+
+
+<form action="action_page.php">
+<input list="browsers">
+<datalist id="browsers">
+   <option value="Internet Explorer">
+   <option value="Firefox">
+   <option value="Chrome">
+   <option value="Opera">
+   <option value="Safari">
+</datalist> 
+</form>
+<br/>
+
+
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+<br/>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<br/>
+
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab" selected>Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+
+<form action="action_page.php" method="GET" target="_blank" accept-charset="UTF-8"
+ectype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+<fieldset>
+<legend>Personal information:</legend>
+First name:<br>
+<input type="text" name="firstname" value="Mickey">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Mouse">
+<br><br>
+<input type="submit" value="Submit"></fieldset>
+</form> 
+
+<br><br>
+
+
+
+<form>
+ First name:
+<input type="text" name="firstname">
+<br/>
+ Last name:
+<input type="text" name="lastname">
+</form> 
+
+<form>
+<input type="radio" name="sex" value="male" checked>Male
+<br>
+<input type="radio" name="sex" value="female">Female
+</form> 
+
+<form >
+First name:<br>
+<input type="text" name="firstname" value="Mickey">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Mouse">
+<br><br>
+<input type="submit" value="Submit">
+</form> 
 
 <script type="text/javascript">
 document.write("Hello World!")
